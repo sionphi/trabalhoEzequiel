@@ -1,0 +1,29 @@
+.preview-card {
+    border: 1px solid rgb(203 213 225);
+    background-color: rgb(226 232 240);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    box-shadow: insert 0 2px 4px 0 rgb(15 23 42 / 0.06);
+    position: relative;
+    overflow: hidden;
+}
+ 
+.preview-title {
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 0.875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: rgb(100 116 139);
+}
+ 
+.lumos-active {
+    background-color: #fef08a !important;
+    box-shadow: 0 0 4px #fde047;
+    transition: all 0.5s ease-in-out;
+}
+ 
+#pomo-de-ouro {
+    transition: top 0.2s ease-out, left 0.2s ease-out;
+}

@@ -1,0 +1,56 @@
+<!-- Exercício 5: Para testar, altere temporariamente para method="GET".
+     Ao enviar, os dados aparecem na barra de endereços como parâmetros da URL.
+     Depois volte para POST. -->
+
+<form action="#" method="POST">
+
+    <div>
+        <label for="user-name">Nome Completo:</label><br>
+
+        <!-- Exercício 4:-->
+        <input type="text" id="user-name" name="nome" placeholder="Matheus Tesser" required>
+    </div>
+
+    <br>
+
+    <div>
+        <label for="user-email">Endereço de Correio Eletrónico:</label><br>
+
+        <!-- Exercício 4:-->
+        <input type="email" id="user-email" name="email" placeholder="matheus@email.com">
+    </div>
+
+    <br>
+
+    <!-- Exercício 1: -->
+    <div>
+        <label for="user-phone">Telemóvel:</label><br>
+        <input type="tel" id="user-phone" name="telemovel" placeholder="+55 15 99999-9999">
+    </div>
+
+    <br>
+
+    <!-- Exercício 3:  -->
+    <div>
+        <label for="user-age">Quantos anos tem?</label><br>
+        <input type="number" id="user-age" name="idade" min="13" max="100" placeholder="16">
+    </div>
+
+    <br>
+
+    <div>
+        <label for="user-pass">Palavra-passe:</label><br>
+
+        <!-- Exercício 2: -->
+        <!-- Exercício 4: -->
+        <input type="password" id="user-pass" name="senha" placeholder="Senha12345" minlength="8" maxlength="20"
+            required>
+    </div>
+
+    <br>
+
+    <button type="submit">Criar Conta Agora</button>
+
+    <button type="reset">Limpar Dados</button>
+
+</form>

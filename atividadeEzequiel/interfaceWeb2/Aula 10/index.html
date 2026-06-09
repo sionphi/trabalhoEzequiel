@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Eventos Mágicos</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-slate-50 text-slate-900 p-8">
+    <div class="max-w-3xl mx-auto space-y-6">
+        <!--Click -->
+        <div id="sala-precisa" class="preview-card bg-slate-900 border-slate-700">
+            <h3 class="preview-title !text-slate-400">1 click (Feitiço Lumos)</h3>
+            <div class="flex flex-col items-center gap-4">
+                <p class="text-slate-500 font-medium">A sala está escura...</p>
+                <button id="btn-lumos" class="px-6 py-2 bg-slate-700 hover
+:bg-slate-600 text-white rounded-full font-bold shadow-1g border border-slate-500 transition-colors">LUMOS!</button>
+            </div>
+        </div>
+        <!--  Mouse -->
+        <div id="campo-quadribol" class="preview-card h-[200px]">
+            <h3 class="preview-title">2 mouseenter (Pomo de Ouro)</h3>
+            <p class="text-slate-500 text-center text-sm">
+                Tente capturar o pomo de ouro com o mouse!</p>
+            <div id="pomo-de-ouro" class="absolute w-8 h-8 bg-yellow-400
+rounded-full border-2 border-yellow-600 shadow-[0_0_15px_#fde047] cursor-pointer flex items-center justify-center top-1/2 left-1/2
+transform-translate-x-1/2 -translate-y-1/2 2-10">
+                <span class="text-xs">🌟</span>
+            </div>
+        </div>
+        <!-- Teclado -->
+        <div class="preview-card">
+            <h3 class="preview-title">3 input (Diário de Tom Riddle)</h3>
+            <div class="flex flex-col items-center gap-4 max-w-md mx-auto ">
+                <input type="text" id="diario-input" placeholder="Escreva no diário..." class="w-full px-4 py-2 rounded-1g border-2 border-slate-300
+focus:border-red-500 focus: outline-none font-mono">
+                <div class="w-full min-h-[50px] p-4 bg-slate-100 rounded-1g
+                border border-slate-200 text-center italic text-emerald-800
+                font-serif text-lg">
+                    <span id="diario-resposta">...</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-full min-h-[50px] p-4 bg-slate-100 rounded-1g
+                border border-slate-200 text-center italic text-emerald-800
+                font-serif text-lg">
+            <button id="btn-pena">Clique aqui</button>
+            <p id="paragrafo_alteravel"></p>
+        </div>
+
+        <div style= "background-color: red; height: 40px;" id="espelho">
+            <p style="color: white; text-align: center;">Passe o mouse aqui</p>
+        </div>
+
+        <img src="https://contentful.harrypotter.com/usf1vwtuqyxm/3SQ3X2km8wkQIsQWa02yOY/8801d7055a3e99dae8e60f54bb4b1db8/HarryPotter_WB_F4_HarryPotterMidshot_Promo_080615_Port.jpg?q=75&fm=jpg&w=914" alt="" id="personagem" style="height: 400px;">
+
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Aula 07 - Meu Primeiro CSS</title>
+
+    <style>
+        /* Exercício 1: */
+        body {
+            background-color: #e0f7fa;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Exercício 2: */
+        h1 {
+            color: navy;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        /* Exercício 3: */
+        .card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 0px;
+            margin: 20px auto;
+            width: 300px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border: 2px solid navy;
+        }
+
+        /* Exercício 4:*/
+        .texto-azul {
+            color: blue;
+        }
+
+        /* Prioridade do ID */
+        #destaque {
+            color: crimson;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+        /* Exercício 5: */
+        p {
+            line-height: 1.6;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Iniciando no Mundo Visual</h1>
+
+    <div class="card">
+        <p>Este é um cartão estilizado com classe.</p>
+
+        <!-- Exercício 4: Classe aplicada junto com o ID -->
+        <p id="destaque" class="texto-azul">
+            Eu sou um texto de destaque único!
+        </p>
+    </div>
+
+    <p style="text-align: center; color: gray;">
+        Texto centralizado via CSS Inline.
+    </p>
+
+</body>
+
+</html>

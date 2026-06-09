@@ -1,0 +1,75 @@
+
+<form action="#" method="POST">
+
+    <fieldset>
+        <legend>Escolha o seu Plano de Subscrição</legend>
+
+        <input type="radio" id="plano-basico" name="plano" value="basico" checked>
+        <label for="plano-basico">Básico (Gratuito)</label><br>
+
+        <input type="radio" id="plano-premium" name="plano" value="premium">
+        <label for="plano-premium">Premium (9.99€/mês)</label><br>
+
+        <!-- Exercício 1:-->
+        <input type="radio" id="plano-empresarial" name="plano" value="empresarial">
+        <label for="plano-empresarial">Empresarial (49.99€/mês)</label>
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+        <legend>Interesses Técnicos (Marque todos os que desejar)</legend>
+
+        <input type="checkbox" id="html" name="interesse" value="html">
+        <label for="html">HTML5 Semântico</label><br>
+
+        <input type="checkbox" id="css" name="interesse" value="css">
+        <label for="css">CSS3 Avançado</label><br>
+
+        <!-- Exercício 2: -->
+        <input type="checkbox" id="javascript" name="interesse" value="javascript">
+        <label for="javascript">JavaScript</label><br>
+
+        <input type="checkbox" id="uiux" name="interesse" value="uiux">
+        <label for="uiux">Design UI/UX</label>
+    </fieldset>
+
+    <br>
+
+    <!-- Exercício 5:-->
+    <fieldset>
+        <legend>Informações de Perfil</legend>
+
+        <label for="pais">País de Residência:</label><br>
+        <select id="pais" name="nacionalidade">
+            <option value="pt" selected>Portugal</option>
+            <option value="br">Brasil</option>
+            <option value="ao">Angola</option>
+        </select>
+
+        <br><br>
+
+        <!-- Exercício 3:-->
+        <label for="cidade">Cidade Favorita:</label><br>
+        <select id="cidade" name="cidade">
+            <option value="lisboa">Lisboa</option>
+            <option value="porto">Porto</option>
+            <option value="sao-paulo">São Paulo</option>
+            <option value="rio">Rio de Janeiro</option>
+            <option value="luanda">Luanda</option>
+        </select>
+
+        <br><br>
+
+        <label for="bio">Conte-nos um pouco sobre a sua experiência:</label><br>
+
+        <!-- Exercício 4:-->
+        <textarea id="bio" name="mensagem" rows="5" cols="40" maxlength="200"></textarea>
+
+    </fieldset>
+
+    <br><br>
+
+    <button type="submit">Submeter Pedido</button>
+
+</form>

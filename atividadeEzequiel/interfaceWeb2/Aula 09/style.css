@@ -1,0 +1,28 @@
+body {
+    background-color: #000;
+    color: #0f0;
+    font-family: 'fira Code', monospace;
+}
+
+#agentes {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    align-content: center;
+}
+
+/* Classe que atribuiremos via JS */
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #0f0;
+    padding: 1rem;
+    background-color: #050505;
+    align-items: center;
+}
+
+.card img {
+    max-width: 100px;
+    height: auto;
+    border: 1px solid #0f0;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="" id="form-recruta">
+        <div>
+            <label>Nome de Código</label>
+            <input type="text" id="input-nome">
+            <p id="erro-nome" class="hidden error-text">Nome vazio</p>
+        </div>
+
+        <div>
+            <label>Código de Acesso</label>
+            <input type="password" id="input-codigo">
+            <p id="erro-codigo" class="hidden error-text">Mín. 6 caracteres</p>
+        </div>
+
+        <button type="submit">Autorizar Acesso</button>
+
+        <div id="msg-sucesso" class="hidden success-box">
+            Acesso Concedido, Agente!
+        </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
